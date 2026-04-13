@@ -59,4 +59,9 @@ public class MainCtrl {
 
 		
 	   return "index";   }
+	
+	@GetMapping("/login")
+	public String login() {
+	    return "login";
+	}
 }
